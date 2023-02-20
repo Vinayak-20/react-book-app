@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+    background-image: url('https://i.postimg.cc/HxWWxXJ7/simple-bookshelf.jpg');
+    width: 100%;
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+
+}
+.name{
+    color: white;
+    margin-left: 30%;
+    margin-top: 7%;
+    font-size: large;
+    font-style: italic;
+    color: rgb(243, 246, 154);
+}
+
+.search{
+    margin-top: 10%;
+    align-items: center;
+    align-content: center;
+    margin-left: 3%;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 70%;
+    border-radius: 20px  0  0 20px;
+    border: none;
+    text-align: center;
+    
+}
+.sr{
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: 0 0.5rem;
+    border-radius: 0 20px 20px 0 ;
+    width: 50px;
+    background-color: white;
+    margin-top: 2px;
+}
+
+.sr:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.container{
+    /* width: 65%; */
+    /* margin: 0 auto; */
+    /* margin-top: 25px; */
+    /* display: grid;
+    grid-gap: 20px;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4,minmax(200px,0.5fr));
+    background-color: black; */
+}
+/* .contain{
+    display: flex;
+} */
+
+
+
+
