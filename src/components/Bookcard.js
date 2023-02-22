@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card';
 import './card.css'
-import { Link,useNavigate } from 'react-router-dom';
+// import { Link,useNavigate } from 'react-router-dom';
 
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import Bookview from './Bookview';
 
 
@@ -26,7 +26,7 @@ function Bookcard({book}) {
 {
   book.map((item=>{
 
-    let thumbnail=  item.volumeInfo.imageLinks &&item.volumeInfo.imageLinks.smallThumbnail;
+    let thumbnail= item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail;
     let price= item.saleInfo.listPrice && item.saleInfo.listPrice.amount
     let name=item.volumeInfo.title 
 
